@@ -3,24 +3,18 @@ import React from 'react';
 const Home = () => (
   <div className="content-container">
     <div className="content-title-group">
-      <h2 className="title">Shop at Home</h2>
-      <p>
-        Manage your shopping list! Become a preferred customer and gain access
-        to discount codes, too.
-      </p>
-      <p>Log in to start enjoying your benefits.</p>
+      <h2 className="title">Global Leaderboard</h2>
+      <p>See how you rank agains friends or the world!</p>
       <br />
       <div className="button-group">
         <button className="button" aria-label="My List" tabIndex="0">
           <a href="/products">
-            <i className="fas fa-clipboard-list"></i>
-            My List
+            Match History
           </a>
         </button>
         <button className="button" aria-label="My Discounts">
-          <a href="/discounts">
-            <i className="fas fa-money-bill-alt"></i>
-            My Discounts
+          <a href="/cosmos">
+            Sports
           </a>
         </button>
         <button className="button" aria-label="My Discounts">
@@ -29,8 +23,7 @@ const Home = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-github"></i>
-            Code in GitHub
+            New Match
           </a>
         </button>
       </div>{' '}
