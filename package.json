@@ -1,0 +1,11 @@
+{
+  "name": "repo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "/react-app",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
