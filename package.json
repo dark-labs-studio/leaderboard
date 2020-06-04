@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "func start",
-    "build": "npm run build",
+    "build": "func start",
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {},
