@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "/react-app",
+    "start": "npm start /react-app",
+    "build": "npm build /react-app",
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {},
